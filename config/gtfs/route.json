@@ -5,6 +5,7 @@
     "direction_finder_enabled": true,
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
+    "stop_id_cleanup_regex": "-", 
     "stop_id_not_supported_configs": [
         {
             "original_stop_id": "Gare",
