@@ -3,7 +3,73 @@
     "use_route_short_name_for_route_id": true,
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
+    "direction_splitter_enabled": true,
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
+    "stop_id_cleanup_regex": "_",
+    "stop_id_not_supported_configs": [
+        {
+            "original_stop_id": "Gare",
+            "stop_id_int": 100000
+        },
+        {
+            "original_stop_id": "CEGEP-N",
+            "stop_id_int": 200000
+        },
+        {
+            "original_stop_id": "CEGEP-S",
+            "stop_id_int": 300000
+        },
+        {
+            "original_stop_id": "Carrefour (1)",
+            "stop_id_int": 400000
+        },
+        {
+            "original_stop_id": "Carrefour (2)",
+            "stop_id_int": 500000
+        }
+    ],
+    "stop_id_previous_char_configs" : [
+        {
+            "char": "AB",
+            "id_part": 102000
+        },
+        {
+            "char": "AJ",
+            "id_part": 110000
+        },
+        {
+            "char": "AO",
+            "id_part": 115000
+        },
+        {
+            "char": "AR",
+            "id_part": 118000
+        },
+        {
+            "char": "AV",
+            "id_part": 122000
+        },
+        {
+            "char": "RB",
+            "id_part": 1802000
+        },
+        {
+            "char": "RJ",
+            "id_part": 1810000
+        },
+        {
+            "char": "RO",
+            "id_part": 1815000
+        },
+        {
+            "char": "RR",
+            "id_part": 1818000
+        },
+        {
+            "char": "RV",
+            "id_part": 1822000
+        }
+    ],
     "stop_name_cleaners": []
 }
