@@ -3,9 +3,10 @@
     "use_route_short_name_for_route_id": true,
     "default_route_long_name_enabled": true,
     "direction_finder_enabled": true,
+    "direction_splitter_enabled": true,
     "trip_headsign_remove_via": true,
     "trip_headsign_cleaners": [],
-    "stop_id_cleanup_regex": "-", 
+    "stop_id_cleanup_regex": "_",
     "stop_id_not_supported_configs": [
         {
             "original_stop_id": "Gare",
