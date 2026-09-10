@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:locale="en">
+    <!-- app_name: fix violation of Impersonation policy (Play Store) -->
+    <string name="app_name">MonTransit Rimouski buses</string>
+    <string name="app_desc">Rimouski Société des Transports de Rimouski buses data for MonTransit.</string>
+</resources>
